@@ -25,10 +25,32 @@
     .authors {
       font-size: 16px;
     }
+
+    .links {
+      margin-top: 20px;
+      text-align: center;
+    }
+
     .links a {
-      margin-right: 15px;
+      display: inline-block;
+      margin: 10px 10px 0 0;
+      padding: 10px 16px;
+      font-size: 0.95rem;
+      font-weight: 600;
       text-decoration: none;
-      color: #1a0dab;
+      color: #ffffff;
+      background-color: #007acc;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .links a:hover {
+      background-color: #005fa3;
+    }
+
+    .links a[disabled] {
+      background-color: #999999;
+      pointer-events: none;
     }
     .figure {
       margin: 20px 0;
@@ -63,11 +85,17 @@
 <!--     <a href="https://kongwanbianjinyu.github.io/Cat-AIR/">Project Site</a> -->
   </div>
 
-  <div class="links">
+<!--   <div class="links">
     <h2>Resources</h2>
     <a href="#">[Paper]</a>
     <a href="#">[Code]</a>
     <a href="#">[Model]</a>
+  </div> -->
+  <div class="links">
+    <a href="https://arxiv.org/pdf/2505.21653" target="_blank">📄 Paper (arXiv)</a>
+    <a href="#" onclick="alert('Code coming soon!')" style="background-color: #999999;">💻 Code (Coming Soon)</a>
+    <a href="#" onclick="alert('Model coming soon!')" style="background-color: #999999;">🧠 Model (Coming Soon)</a>
+    <a href="#" onclick="alert('Dataset coming soon!')" style="background-color: #999999;">📁 Dataset (Coming Soon)</a>
   </div>
 
   <div class="figure">
