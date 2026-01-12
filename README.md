@@ -1,8 +1,3 @@
-Here’s a polished **README.md** for your GitHub repository for the **ProCrop** codebase (corresponding to the arXiv paper *ProCrop: Learning Aesthetic Image Cropping from Professional Compositions*). ([arXiv][1])
-
----
-
-```markdown
 # ProCrop 🚀
 
 **ProCrop** — *Learning Aesthetic Image Cropping from Professional Compositions*  
