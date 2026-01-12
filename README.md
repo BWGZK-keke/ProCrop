@@ -22,16 +22,7 @@ ProCrop introduces:
 ```
 
 📁 ProCrop/
-├── datasets/               # Dataset scripts & download links
-├── models/                 # Model architectures and utilities
-├── training/               # Training pipelines and configs
-├── evaluation/             # Evaluation scripts and metrics
-├── inference/              # Inference pipeline & demo examples
-├── logs/                   # Training logs and checkpoints
-├── docs/                   # Supplementary documentation
-├── LICENSE
-└── README.md
-
+To be uploaded
 ````
 
 ---
