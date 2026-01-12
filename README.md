@@ -44,13 +44,22 @@ Outperforms prior methods and rivals supervised baselines when trained on the Pr
 ---
 
 ## 🚀 Quick Start
-Step 1: Preprocess the query and retrieval datasets
+## Step 1: Preprocess the Query and Retrieval Datasets
 
-1.1 Extract SAM embeddings for the query dataset and store them in an HDFS file.
+We adapt code from **RALF** (https://github.com/CyberAgentAILab/RALF) for this step.  
+You may skip this step if you are using the **pre-generated query–retrieval relationship file**.
 
-1.2 Extract SAM embeddings for the retrieval dataset and store them in an HDFS file.
+### 1.1 Extract Query Embeddings
+- Extract **SAM embeddings** for the **query dataset**.
+- Store the embeddings in an **HDFS file**.
 
-1.3 For each query image, compute the top-k most similar images from the retrieval dataset and save the query–retrieval correspondences to an HDFS file.
+### 1.2 Extract Retrieval Embeddings
+- Extract **SAM embeddings** for the **retrieval dataset**.
+- Store the embeddings in an **HDFS file**.
+
+### 1.3 Compute Query–Retrieval Relationships
+- For each query image, compute the **top-k most similar images** from the retrieval dataset.
+- Save the **query–retrieval correspondences** to an **HDFS file**.
 
 Step 2: Retrieval-based auto Cropping
 
