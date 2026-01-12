@@ -44,7 +44,16 @@ Outperforms prior methods and rivals supervised baselines when trained on the Pr
 ---
 
 ## 🚀 Quick Start
-Doing
+Step 1: Preprocess the query and retrieval datasets
+
+1.1 Extract SAM embeddings for the query dataset and store them in an HDFS file.
+
+1.2 Extract SAM embeddings for the retrieval dataset and store them in an HDFS file.
+
+1.3 For each query image, compute the top-k most similar images from the retrieval dataset and save the query–retrieval correspondences to an HDFS file.
+
+Step 2: Retrieval-based auto Cropping
+
 
 ## 📁 Dataset
 
