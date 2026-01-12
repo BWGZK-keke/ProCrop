@@ -53,44 +53,7 @@ Outperforms prior methods and rivals supervised baselines when trained on the Pr
 ---
 
 ## 🚀 Quick Start
-
-### 1. Clone the repo
-```bash
-git clone https://github.com/<your_org>/ProCrop.git
-cd ProCrop
-````
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Download the dataset
-
-```bash
-bash scripts/download_dataset.sh
-```
-
-### 4. Train the model
-
-```bash
-python training/train.py --config configs/procrop_train.yaml
-```
-
-### 5. Evaluate
-
-```bash
-python evaluation/evaluate.py --model checkpoints/latest.pth
-```
-
-### 6. Run inference
-
-```bash
-python inference/run_inference.py --input examples/image.jpg
-```
-
----
+Doing
 
 ## 📁 Dataset
 
