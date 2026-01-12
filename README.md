@@ -90,24 +90,6 @@ If you use this code or dataset in your research, please cite:
 ```
 ---
 
-## 👥 Contributors
-
-* **Ke Zhang**
-* **Tianyu Ding**
-* **Jiachen Jiang**
-* **Tianyi Chen**
-* **Ilya Zharkov**
-* **Vishal M. Patel**
-* **Luming Liang**
-
----
-
-## 📜 License
-
-This project is released under the **MIT License**.
-
----
-
 ## 📌 Contact
 
 For questions or collaborations:
