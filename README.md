@@ -70,19 +70,6 @@ If you use this code or dataset in your research, please cite:
   year={2025}
 }
 ```
-
----
-
-## 🧪 Benchmarks
-
-| Method                 | Supervised | Weakly Supervised | Notes                        |
-| ---------------------- | ---------- | ----------------- | ---------------------------- |
-| ProCrop (Ours)         | ✓          | ✓                 | Matches supervised baselines |
-| Prior Weak Methods     | ✗          | ✓                 | Lower performance            |
-| Traditional Heuristics | ✗          | ✗                 | Limited aesthetic quality    |
-
-Detailed results and plots are available in `evaluation/results/`.
-
 ---
 
 ## 👥 Contributors
