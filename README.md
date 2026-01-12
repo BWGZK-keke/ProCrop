@@ -160,9 +160,5 @@ For questions or collaborations:
 
 Happy cropping! 🎯
 
-```
-::contentReference[oaicite:3]{index=3}
-```
-
 [1]: https://arxiv.org/abs/2505.22490 "[2505.22490] ProCrop: Learning Aesthetic Image Cropping from Professional Compositions"
 
