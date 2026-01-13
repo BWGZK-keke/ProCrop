@@ -18,6 +18,8 @@ ProCrop introduces:
 ---
 ## Create Environment
 conda create -n procrop python=3.11 -y
+pip install -r requirements.txt
+pip install git+https://github.com/openai/CLIP.git
 
 ## 📦 Repository Contents
 
