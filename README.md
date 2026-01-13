@@ -16,6 +16,8 @@ ProCrop introduces:
 - State-of-the-art performance in both **supervised** and **weakly supervised** settings — surpassing previous methods and matching fully supervised baselines. :contentReference[oaicite:2]{index=2}
 
 ---
+## Create Environment
+conda create -n procrop python=3.11 -y
 
 ## 📦 Repository Contents
 
