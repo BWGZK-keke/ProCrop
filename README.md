@@ -1,19 +1,6 @@
 # ProCrop 🚀
-
-**ProCrop** — *Learning Aesthetic Image Cropping from Professional Compositions*  
-Code and dataset for the paper: **ProCrop: Learning Aesthetic Image Cropping from Professional Compositions**  
-📄 *arXiv:2505.22490* — Ke Zhang, Tianyu Ding, Jiachen Jiang, Tianyi Chen, Ilya Zharkov, Vishal M. Patel, Luming Liang :contentReference[oaicite:1]{index=1}
-
----
-
-## 📘 Overview
-
-Image cropping is a fundamental step in visual content creation and enhancement. Traditional rule-based heuristics and existing learning-based methods often struggle to match the aesthetics of professional photographers. **ProCrop** addresses this gap by learning aesthetic cropping styles directly from professional compositions.
-
-ProCrop introduces:
-- A **retrieval-based aesthetic cropping model** that leverages professional images to guide crop selection.
-- A **large-scale composition-aware dataset** with 242K weakly annotated images generated through an iterative out-painting and crop proposal refinement pipeline.
-- State-of-the-art performance in both **supervised** and **weakly supervised** settings — surpassing previous methods and matching fully supervised baselines. :contentReference[oaicite:2]{index=2}
+ 
+Code and dataset for the AAAI 2026 paper: **ProCrop: Learning Aesthetic Image Cropping from Professional Compositions**  
 
 ---
 ## Create Environment
@@ -25,27 +12,8 @@ pip install git+https://github.com/openai/CLIP.git
 
 ## 📦 Repository Contents
 
-```
-
-📁 ProCrop/
-To be uploaded
+Dataset and precomputed retrieval relationship: https://huggingface.co/datasets/BWGZK/procrop_dataset/tree/main
 ````
-
----
-
-## 🧠 Features
-
-✔️ **Professional composition guidance**  
-Leverages features from professional photography to drive cropping decisions.
-
-✔️ **Large weakly annotated dataset**  
-Contains ~242K images and diverse crop proposals generated via out-painting and iterative refinement.
-
-✔️ **Flexible training modes**  
-Supports both fully supervised and weakly supervised learning.
-
-✔️ **State-of-the-art performance**  
-Outperforms prior methods and rivals supervised baselines when trained on the ProCrop dataset.
 
 ---
 
@@ -94,14 +62,6 @@ If you use this code or dataset in your research, please cite:
   year={2025}
 }
 ```
----
-
-## 📌 Contact
-
-For questions or collaborations:
-
-* Open an issue
-* Reach out to the authors via email (see paper)
 
 ---
 
