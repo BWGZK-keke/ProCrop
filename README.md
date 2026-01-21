@@ -13,7 +13,6 @@ pip install git+https://github.com/openai/CLIP.git
 ## 📦 Repository Contents
 
 Dataset and precomputed retrieval relationship: https://huggingface.co/datasets/BWGZK/procrop_dataset/tree/main
-````
 
 ---
 
