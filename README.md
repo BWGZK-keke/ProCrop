@@ -4,6 +4,8 @@ Code for the AAAI 2026 paper: **ProCrop: Learning Aesthetic Image Cropping from 
 
 [![arXiv](https://img.shields.io/badge/arXiv-2505.22490-b31b1b.svg)](https://arxiv.org/abs/2505.22490)
 [![GitHub](https://img.shields.io/badge/GitHub-ProCrop-blue)](https://github.com/BWGZK-keke/ProCrop)
+[![Model](https://img.shields.io/badge/🤗%20Model-BWGZK/ProCrop-yellow)](https://huggingface.co/BWGZK/ProCrop)
+[![Dataset](https://img.shields.io/badge/🤗%20Dataset-procrop__dataset-yellow)](https://huggingface.co/datasets/BWGZK/procrop_dataset)
 
 <p align="center">
   <img src="pipeline.png" width="800"/>
@@ -58,13 +60,30 @@ pip install git+https://github.com/openai/CLIP.git
 
 ## Datasets and Pretrained Models
 
-Download from HuggingFace: https://huggingface.co/datasets/BWGZK/procrop_dataset/tree/main
+### Pretrained checkpoint (HuggingFace)
+
+The headline supervised checkpoint (FLMS IoU = **0.843**, matches paper Table 3) is available at:
+
+🤗 **https://huggingface.co/BWGZK/ProCrop**
+
+```python
+from huggingface_hub import hf_hub_download
+ckpt = hf_hub_download(repo_id="BWGZK/ProCrop", filename="procrop_flms_supervised.pth")
+```
+
+Or via CLI:
+```bash
+huggingface-cli download BWGZK/ProCrop procrop_flms_supervised.pth --local-dir ./checkpoints
+```
+
+### Dataset (HuggingFace)
+
+Download from: https://huggingface.co/datasets/BWGZK/procrop_dataset
 
 This includes:
 - **CAD dataset** (weakly annotated images generated via ControlNet outpainting)
 - **Precomputed retrieval tables** (`.pt` files mapping query images to top-32 AVA/CGL references)
 - **Pre-extracted SAM embedding databases** (parquet format, for GAIC / FLMS / SACD evaluation)
-- **Model checkpoints**
 
 ### Additional downloads
 
