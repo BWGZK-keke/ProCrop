@@ -61,7 +61,7 @@ pip install git+https://github.com/openai/CLIP.git
 Download from HuggingFace: https://huggingface.co/datasets/BWGZK/procrop_dataset/tree/main
 
 This includes:
-- **CAD dataset** (242K weakly annotated images generated via ControlNet outpainting)
+- **CAD dataset** (weakly annotated images generated via ControlNet outpainting)
 - **Precomputed retrieval tables** (`.pt` files mapping query images to top-32 AVA/CGL references)
 - **Pre-extracted SAM embedding databases** (parquet format, for GAIC / FLMS / SACD evaluation)
 - **Model checkpoints**
