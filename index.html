@@ -74,6 +74,32 @@
       padding: 15px;
       border-left: 5px solid #007acc;
     }
+
+    .release-box {
+      margin: 24px 0;
+      padding: 18px 20px;
+      background: #f0f8ff;
+      border: 1px solid #cfe8ff;
+      border-left: 5px solid #007acc;
+      border-radius: 8px;
+      text-align: left;
+    }
+
+    .release-box h2 {
+      margin-top: 0;
+      text-align: left;
+    }
+
+    .release-box p {
+      margin: 8px 0 0 0;
+    }
+
+    .resource-note {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: #444;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -101,17 +127,28 @@
     <a href="#">[Model]</a>
   </div> -->
 <div class="links">
-  <a href="https://arxiv.org/abs/2505.22490" target="_blank">
+  <h2>Resources</h2>
+  <a href="https://arxiv.org/abs/2505.22490" target="_blank" rel="noopener noreferrer">
     📄 Paper (arXiv)
   </a>
 
-  <a href="https://github.com/BWGZK-keke/ProCrop" target="_blank">
-    💻 Code
+  <a href="https://github.com/BWGZK-keke/ProCrop" target="_blank" rel="noopener noreferrer">
+    💻 Code Released
   </a>
 
-  <a href="https://huggingface.co/datasets/BWGZK/procrop_dataset" target="_blank">
-    📁 Dataset
+  <a href="https://huggingface.co/datasets/BWGZK/procrop_dataset" target="_blank" rel="noopener noreferrer">
+    📁 Dataset Released
   </a>
+  <div class="resource-note">
+    The ProCrop code and the 242K-image weakly annotated cropping dataset are now publicly available.
+  </div>
+</div>
+
+<div class="release-box">
+  <h2>Code and Dataset Release</h2>
+  <p>
+    We have released the official ProCrop implementation and the large-scale ProCrop dataset to support future research in aesthetic image cropping, image composition, and weakly supervised crop learning.
+  </p>
 </div>
 
   
@@ -142,7 +179,7 @@
       and becomes the largest publicly available dataset for image cropping.
       Extensive experiments show that ProCrop significantly outperforms existing methods in both supervised and weakly-supervised settings.
       Notably, when trained on the new dataset, our ProCrop surpasses previous weakly-supervised methods and even matches fully supervised approaches.
-      Both the code and dataset will be made publicly available to advance research in image aesthetics and composition analysis.
+      Both the code and dataset are publicly available to advance research in image aesthetics and composition analysis.
     </p>
   </div>
 
