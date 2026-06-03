@@ -283,11 +283,14 @@ Download from HuggingFace: https://huggingface.co/datasets/BWGZK/procrop_dataset
 ## Citation
 
 ```bibtex
-@article{ProCrop2025,
-  title={ProCrop: Learning Aesthetic Image Cropping from Professional Compositions},
-  author={Zhang, Ke and Ding, Tianyu and Jiang, Jiachen and Chen, Tianyi and Zharkov, Ilya and Patel, Vishal M. and Liang, Luming},
-  journal={arXiv preprint arXiv:2505.22490},
-  year={2025}
+@inproceedings{zhang2026procrop,
+  title={Procrop: Learning aesthetic image cropping from professional compositions},
+  author={Zhang, Ke and Ding, Tianyu and Jiang, Jiachen and Chen, Tianyi and Zharkov, Ilya and Patel, Vishal M and Liang, Luming},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={15},
+  pages={12600--12608},
+  year={2026}
 }
 ```
 
